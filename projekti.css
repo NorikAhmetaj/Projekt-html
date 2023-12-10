@@ -1,0 +1,93 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.featured-games {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+/* Add styles for other sections and elements as needed */
+
+.about-us {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.our-team {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+/* Add styles for the Products (Games) page */
+
+.game-categories {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.featured-games {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.game-filters {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.pagination {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add additional styles as needed */

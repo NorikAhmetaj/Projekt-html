@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container img {
+    width: 40px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+.hero {
+    position: relative;
+    color: #fff; 
+    text-align: center;
+}
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.hero-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+}
+cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cta-button:hover {
+    background-color: #e65c00; 
+}
+.featured-games {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+.game {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.game img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.price {
+    color: #00cc00;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.about-us,
+.newsletter {
+    text-align: center;
+    padding: 50px 20px;
+}
+.about-us h2,
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+.newsletter form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter label,
+.newsletter input,
+.newsletter button {
+    margin-right: 10px;
+}
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+.form-container {
+    max-width: 400px;
+}
+.illustration-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
